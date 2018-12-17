@@ -12,14 +12,12 @@ for (let x = 1; y < cookies.length; x++) {
 }```
 
 ## Conjunction Function
-```
-const conjunction = function (firstWord, secondWord) {
+```const conjunction = function (firstWord, secondWord) {
     const conjoinedWord = `${firstWord} ${secondWord}`
 }
 
 conjunction("Master", "Card")
-console.log(conjoinedWord)
-```
+console.log(conjoinedWord)```
 
 ## Mod Squad
 ```{
@@ -43,8 +41,7 @@ document.querySelector(".show-info").innerHTML = HTMLRepresentation
 
 ## Simon Says
 There are two separate scoping issues in this code. Remember, for and if are their own block scopes and if something is declared with let or const then that variable only exists in that scope.
-```
-const locations = [[1,1], [1,2], [1,3], [2,1], [2,2], [2,3]]
+```const locations = [[1,1], [1,2], [1,3], [2,1], [2,2], [2,3]]
 
 for (let k = 0; k < locations.length; k++) {
     const currentLocation = locations[k]
