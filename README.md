@@ -9,18 +9,23 @@ let y = 1
 for (let x = 1; y < cookies.length; x++) {
     const currentCookie = cookies[y]
     console.log(`Mmmmmmm... that's a good ${currentCookie} cookie`)
-}```
+}
+```
 
 ## Conjunction Function
-```const conjunction = function (firstWord, secondWord) {
+
+```
+const conjunction = function (firstWord, secondWord) {
     const conjoinedWord = `${firstWord} ${secondWord}`
 }
 
 conjunction("Master", "Card")
-console.log(conjoinedWord)```
+console.log(conjoinedWord)
+```
 
 ## Mod Squad
-```{
+```
+{
     const ModSquad = {
         "members": ["Pete Cochran", "Linc Hayes", "Julie Barnes", "Capt. Adam Greer", "Chief Barney Metcalf"]
         "series": {
